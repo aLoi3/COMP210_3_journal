@@ -37,6 +37,7 @@ Task analysis is used for breaking a task into small subtasks (cite https://auti
 * What previous experience users had before accomplishing a task;
 * How users are influenced by physical environment;
 * How users previous experience influence tasks' understanding and its workflow.
+
 Also, it's important to note, that the best time to perform task analysis is early in the development proccess, especially for design work (cite https://www.usability.gov/how-to-and-tools/methods/task-analysis.html). Though in most cases task analysis can be beneficial in terms of, for example, discovering what tasks one's website/app should support or making sure the site is efficient, effective and satisfying to users designers should also be aware of over-analysing (cite http://www.usabilitybok.org/task-analysis). Complex problems might be time-consuming, in addition to getting caught in analysis paralysis, where "more and more detail is investigated" (cite http://www.usabilitybok.org/task-analysis).
 
 ## Eye tracking

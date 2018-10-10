@@ -8,7 +8,7 @@ few are being noticed and many other ones are having poor rating due to user eva
 not many game developers tend to make observations that would actually help them improve player experience. Things like surveys
 are hard to make and hardly ever made right, therefore developers don't get honest feedback from players, which they really look
 forward to. Although despite surveys there are many other user research methods to get feedback from players. It can be either 
-qualitative or quantitative. But in this paper only a few quantitative methods will be disscussed, such as physiological data, 
+qualitative or quantitative. But in this paper only a few quantitative methods will be discussed, such as physiological data, 
 eye tracking and task analysis.
 
 Quantitative methods of user research are aimed to collect only numerical data. Moreover, analysed using mathematical and/or 

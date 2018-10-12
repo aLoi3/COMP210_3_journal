@@ -1,0 +1,81 @@
+% Please do not change the document class
+\documentclass{scrartcl}
+
+% Please do not change these packages
+\usepackage[hidelinks]{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{setspace}
+\doublespace
+
+% You may add additional packages here
+\usepackage{amsmath}
+
+% Please include a clear, concise, and descriptive title
+\title{Psychophysiological Data and Task Analysis as Evaluating Methods}
+
+% Please do not change the subtitle
+\subtitle{COMP210 - Interfaces and Interaction}
+
+% Please put your student number in the author field
+\author{1702208}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Video games have become a very large industry in our ever-growing world. Hundreds of games are being developed over the year, but few are being noticed and many other ones are having poor rating due to user evaluation of the game. In fact, not many game developers tend to make observations that would actually help them improve player experience. Things like surveys are hard to make and hardly ever made right, therefore developers don't get honest feedback from players, which they really look forward to. Although despite surveys there are many other user research methods to get feedback from players. It can be either qualitative or quantitative. But in this paper, only a few quantitative methods will be discussed, such as physiological data and task analysis.
+
+Quantitative methods of user research are aimed to collect only numerical data. Moreover, analyzed using mathematical and/or statistical methods \cite {quantqual}. These usually are polls, questionnaires, and surveys, but many more can be manipulated by computational techniques \cite{quantmeth}. Quantitative methods do not take place in natural settings. In fact, participants cannot explain their choices \cite{carr1994strengths}. As the name suggests, it's better to use a large number of participants to get better and more accurate data \cite{denscombe2014good}.
+
+\section{Physiological Data}
+
+Physiological data has become an influential evaluation method in the games industry \cite{mandryk2008physiological}. This method measures one's emotions during his/her gameplay, which, in fact, gives sometimes useful information about the game experience. But it is better to use with another method to have a comparison in case systems give somewhat wrong details as mentioned in \cite{tan2014combining}.
+
+It usually requires lots of different measurement systems, such as galvanic skin response (GSR), electromyography (EMG), heart rate (HR) computed from electrocardiogram (EKG), electroencephalography (EEG), body temperature and pupil dilations \cite{tan2014combining} \cite{nacke2013introduction}. But rarely enough they all are being used due to the cost of setting all up. A small combination of these would be enough, for example, SCR, HR and pupil dilations. But even that would require some sensors to be stuck either on face or hands, which could disturb some participants and totally change the game experience, that's the most important \cite{tan2014combining}. 
+
+Although this would give a more accurate understanding of the player experience there is another way of getting instant feedback using the think-aloud method. This method requires participants to say whatever they feel while playing the game. This method, in fact, would not be as precise as the other one because the participant has to think about how they actually feel to give better feedback, which can ruin his/her experience as a player. But this could be used in short-term experiments, in essence, 5-minute of gameplay instead of 30-minutes. 
+
+Nonetheless, as the experiment shows in \cite{tan2014combining}, which included both think-aloud and physiological data methods, some of the important moments were indicated with EMG, but participants did not say anything about that, which could be left unnoticed. Player emotions while playing a game are very important and developers usually think thoroughly throughout the development process. They want some moments to be thrilling or sad or funny to make them memorable for any player. Game designers and user researchers are often looking for methods to better undertand player emotions \cite{nacke2015games} to make their game more immersive. Researchers do such evaluation because emotions are hard to fake \cite{nacke2015games}, especially when it involves gaming as concentration focused on a particular task and so every player reaction is going to be spontaneous.
+
+\section{Task Analysis}
+
+Task analysis is used for breaking a task into small subtasks \cite{taimplementation} and analyzing how one is accomplishing it. JoAnn Hackos and Jenice Redish in their book User and Task Analysis for Interface Design \cite{hackos1998user} note a few points to better understand this method:
+
+\begin{description}
+  \item[$\bullet$] What users' goals are;
+  \item[$\bullet$] What users do to achieve their goal;
+  \item[$\bullet$] What previous experience users had before accomplishing a task;
+  \item[$\bullet$] How users are influenced by physical environment;
+  \item[$\bullet$] How users previous experience influence tasks' understanding and its workflow.
+\end{description}
+
+There are a few of task analysis types, two of which are the most common ones - cognitive and hierarchical. There are many techniques for performing cognitive task analysis (CTA), but it generally involves a 5-step iterative process \cite{horn2017adapting} \cite{jonassen2008handbook}:
+
+\begin{description}
+  \item[$\bullet$] ``Collect preliminary knowledge to identify learning goals, tasks and subjects'';
+  \item[$\bullet$] ``Identify knowledge types'';
+  \item[$\bullet$] ``Apply focused knowledge elicitation methods'';
+  \item[$\bullet$] ``Analyze and verify data'';
+  \item[$\bullet$] ``Format results for intended application''.
+\end{description}
+
+For more detail about CTA, read \cite{horn2017adapting}. Hierarchical task analysis (HTA) has been developing for over thirty years now and this method has been applied to many years, including evaluation and interface design. It has three leading principles and ``is based upon a theory of performance'' \cite{stanton2006hierarchical}. These three principles guiding the analysis have been stated in \cite{annett1971} are:
+
+\begin{enumerate}
+  \item ``At the highest level we choose to consider a task as consisting of an operation and the operation is defined in terms of its goal. The goal implies the objective of the system in some real terms of production units, quality or other criteria.''
+  \item ``The operation can be broken down into sub-operations each defined by a sub-goal again measured in real terms by its contribution to overall system output or goal, and therefore measurable in terms of performance standards and criteria.''
+  \item ``The important relationship between operations and sub-operations is really one of inclusion; it is a hierarchical relationship. Although tasks are often proceduralised, that is the sub-goal have to be attained in a sequence, this is by no means always the case.'' (Annett et al, 1971, page 4)
+\end{enumerate}
+
+For more detail about HTA, read \cite{stanton2006hierarchical}. Also, it's important to note, that the best time to perform task analysis is early in the development process, especially for design work \cite{usabilityta}. Though in most cases task analysis can be beneficial in terms of, for example, discovering what tasks one's website/app should support or making sure the site is efficient, effective and satisfying to users designers should also be aware of over-analyzing \cite{usabilitybokta}. Complex problems might be time-consuming, in addition to getting caught in analysis paralysis, where "more and more detail is investigated" \cite{usabilitybokta}.
+
+\section{Conclusion}
+
+There are a lot of different ways to evaluate one's game and get feedback. Some of them could be very useful to game developers, but, on the other hand, some could be useless as user's don't give honest feedback. In such case, researching some of the methods could help to find the best one to get the best feedback and improve the game or webpage/app. In this paper, only two methods were discussed - physiological data, or psychophysiological data, and task analysis - but there are much more to research and decide which one may fit the best in evaluating.
+
+\bibliographystyle{ieeetran}
+\bibliography{references}
+
+\end{document}
